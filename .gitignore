@@ -1,0 +1,4 @@
+.vscode/
+data/
+logdir/
+__pycache__
