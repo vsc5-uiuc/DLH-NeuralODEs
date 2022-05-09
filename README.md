@@ -1,6 +1,6 @@
 # Benchmarking Deep Learning Architectures for predicting Readmission to the ICU and Describing patients-at-Risk
 
-This repository is the attempt at reproducing the results of the paper: [Benchmarking Deep Learning Architectures for predicting Readmission to the ICU and Describing patients-at-Risk](https://www.nature.com/articles/s41598-020-58053-z). 
+This repository is an attempt at reproducing the results of the paper: [Benchmarking Deep Learning Architectures for predicting Readmission to the ICU and Describing patients-at-Risk](https://www.nature.com/articles/s41598-020-58053-z). 
 
 The official repo is located here: https://github.com/sebbarb/time_aware_attention
 
@@ -22,15 +22,15 @@ The dataset used for this analysis is the publicly available [MIMIC-III](https:/
 
 The code expects the following directory structure:
 
-.
-├── DLH-NeuralODEs                  # Repo Root Folder
-|   |── data                        # Preprocessed files land here. Also copy embeddings here.
-|   |── logdir                      # Trained models land here.
-|   |── related_code                # Code for everything: pre-processing, training, 
-|   |   |── embeddings              # Medical code embeddings
-|   |── trained_models              # Pre-Trained Models
-├── MIMIC-III Clinical Database     # Dataset Root Folder
-|   ├── uncompressed                # Folder holding the Uncompressed version of the dataset's CSV files
+    .
+    ├── DLH-NeuralODEs                  # Repo Root Folder
+    |   |── data                        # Preprocessed files land here. Also copy embeddings here.
+    |   |── logdir                      # Trained models land here.
+    |   |── related_code                # Code for everything: pre-processing, training, 
+    |   |   |── embeddings              # Medical code embeddings
+    |   |── trained_models              # Pre-Trained Models
+    ├── MIMIC-III Clinical Database     # Dataset Root Folder
+    |   ├── uncompressed                # Folder holding the Uncompressed version of the dataset's CSV files
 
 ## Pre-Processing
 
